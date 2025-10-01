@@ -21,5 +21,7 @@ public class Product {
     private String descripcion;
     private Double precio;
     private Integer stock;
+
+    @Column(nullable = true)
     private String imagenUrl;
 }
