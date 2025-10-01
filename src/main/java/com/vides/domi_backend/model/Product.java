@@ -14,7 +14,10 @@ public class Product {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @Column(length = 50)
     private String nombre;
+
+    @Column(length = 100)
     private String descripcion;
     private Double precio;
     private Integer stock;
