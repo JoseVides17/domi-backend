@@ -22,6 +22,6 @@ public class Product {
     private Double precio;
     private Integer stock;
 
-    @Column(nullable = true)
+    @Column(nullable = true, length = 100)
     private String imagenUrl;
 }
